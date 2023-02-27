@@ -1,9 +1,8 @@
-
- 
 const fetch = require('node-fetch');
 
 async function postRequest(prefix, params, headers) {
     const URL = `${process.env.REACT_APP_API_BASE_URL}${prefix}`;
+    console.log(URL);
     const request = await fetch(URL, {
         method: 'POST',
         headers: headers,
@@ -15,8 +14,7 @@ async function postRequest(prefix, params, headers) {
 }
 
 async function getRequest(prefix, params, headers) {
-    const URL = `${process.env.REACT_APP_API_BASE_URL}${prefix}${params}`;
-    const request = await fetch(URL, {
+    const URL = `${process.env.REACT_APP_API_BASE_URL}${prefix}${params}`;    const request = await fetch(URL, {
         method: 'GET',
         headers: headers,
     });
