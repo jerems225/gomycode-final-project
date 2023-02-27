@@ -21,7 +21,6 @@ function RegisterForm() {
       'content-type': 'application/json'
     };
     const response = await postRequest(prefix, params, headers);
-    console.log(response);
     setStatus(response.status);
     setMessage(response.message);
     if(response.status === 201)
