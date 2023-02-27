@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  
+  .search-form input[type="number"] {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    font-weight: bolder;
+  }
+
+  .search-form select {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    background-color: #198754;
+    color: #ffff;
+    font-weight: bolder;
+  }
+
+  .search-form option:hover{
+    background-color: #0404040b;
+  }
+  
+  .search-form button[type="submit"] {
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .search-form button[type="submit"]:hover {
+    background-color: #04040448;
+  }
+  
+  .text-size{
+    font-size: 50px;
+  }
