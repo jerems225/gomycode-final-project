@@ -140,7 +140,7 @@ function ConvertForm() {
           <div className="col-12 mt-5 text-center">
             <button type="submit" className="btn btn-md w-100 btn-success text-uppercase">
               <strong>
-                Convertir Maintenant
+                CONVERT NOW
               </strong>
             </button>
           </div>
